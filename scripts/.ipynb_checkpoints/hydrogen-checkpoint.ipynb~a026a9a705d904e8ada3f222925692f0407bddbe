@@ -19,13 +19,33 @@
     "x = np.linspace(-4,4,1000)\n",
     "y = np.linspace(-4,4,1000)\n",
     "z = np.linspace(-4,4,1000)\n",
+<<<<<<< HEAD:scripts/hydrogen.ipynb
     "r = np.linspace(0,8,1000)\n",
+=======
+    "r = np.linespace(0,8,1000)\n",
+>>>>>>> 7d7f18f217847d3b780a7fbebacadffde4f68ece:scripts/.ipynb_checkpoints/hydrogen-checkpoint.ipynb~a026a9a705d904e8ada3f222925692f0407bddbe
     "X,Y = np.meshgrid(x, y)"
    ]
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD:scripts/hydrogen.ipynb
    "execution_count": 17,
+=======
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "def psi_r(r):\n",
+    "    return math.sqrt(1/math.pi)*np.exp(-abs(x))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+>>>>>>> 7d7f18f217847d3b780a7fbebacadffde4f68ece:scripts/.ipynb_checkpoints/hydrogen-checkpoint.ipynb~a026a9a705d904e8ada3f222925692f0407bddbe
    "metadata": {
     "collapsed": false
    },
@@ -37,7 +57,11 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD:scripts/hydrogen.ipynb
    "execution_count": 18,
+=======
+   "execution_count": 3,
+>>>>>>> 7d7f18f217847d3b780a7fbebacadffde4f68ece:scripts/.ipynb_checkpoints/hydrogen-checkpoint.ipynb~a026a9a705d904e8ada3f222925692f0407bddbe
    "metadata": {
     "collapsed": false
    },
@@ -145,7 +169,11 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD:scripts/hydrogen.ipynb
    "execution_count": 38,
+=======
+   "execution_count": 4,
+>>>>>>> 7d7f18f217847d3b780a7fbebacadffde4f68ece:scripts/.ipynb_checkpoints/hydrogen-checkpoint.ipynb~a026a9a705d904e8ada3f222925692f0407bddbe
    "metadata": {
     "collapsed": false
    },
@@ -190,7 +218,11 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD:scripts/hydrogen.ipynb
    "execution_count": 40,
+=======
+   "execution_count": 6,
+>>>>>>> 7d7f18f217847d3b780a7fbebacadffde4f68ece:scripts/.ipynb_checkpoints/hydrogen-checkpoint.ipynb~a026a9a705d904e8ada3f222925692f0407bddbe
    "metadata": {
     "collapsed": false
    },
@@ -228,7 +260,11 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD:scripts/hydrogen.ipynb
    "execution_count": 42,
+=======
+   "execution_count": 8,
+>>>>>>> 7d7f18f217847d3b780a7fbebacadffde4f68ece:scripts/.ipynb_checkpoints/hydrogen-checkpoint.ipynb~a026a9a705d904e8ada3f222925692f0407bddbe
    "metadata": {
     "collapsed": false
    },
