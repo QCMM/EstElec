@@ -1,0 +1,205 @@
+
+*** tstart() called on feynman-pc1
+*** at Tue Nov  7 13:39:19 2017
+
+   => Loading Basis Set <=
+
+    Name: CC-PVDZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1   entry C          line   138 file /home/agomez/anaconda2/envs/p4env/share/psi4/basis/cc-pvdz.gbs 
+    atoms 2-5 entry H          line    22 file /home/agomez/anaconda2/envs/p4env/share/psi4/basis/cc-pvdz.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+            by Justin Turney, Rob Parrish, Andy Simmonett
+                             and Daniel Smith
+                              RHF Reference
+                        1 Threads,    476 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C1
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+           C          0.000000628661     0.000001257322     0.000000628661    12.000000000000
+           H          1.070000628661     0.000001257322     0.000000628661     1.007825032070
+           H         -0.356669371339     0.983541257322    -0.224339371339     1.007825032070
+           H         -0.356669371339    -0.297498742678     0.963940628661     1.007825032070
+           H         -0.356669371339    -0.686058742678    -0.739609371339     1.007825032070
+
+  Running in c1 symmetry.
+
+  Rotational constants: A =      5.47868  B =      5.47866  C =      5.47864 [cm^-1]
+  Rotational constants: A = 164246.61620  B = 164246.05589  C = 164245.59687 [MHz]
+  Nuclear repulsion =   13.686506484736956
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 10
+  Nalpha       = 5
+  Nbeta        = 5
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-08
+  Density threshold  = 1.00e-06
+  Integral threshold = 0.00e+00
+
+  ==> Primary Basis <==
+
+  Basis Set: CC-PVDZ
+    Blend: CC-PVDZ
+    Number of shells: 18
+    Number of basis function: 34
+    Number of Cartesian functions: 35
+    Spherical Harmonics?: true
+    Max angular momentum: 2
+
+   => Loading Basis Set <=
+
+    Name: (CC-PVDZ AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1   entry C          line   121 file /home/agomez/anaconda2/envs/p4env/share/psi4/basis/cc-pvdz-jkfit.gbs 
+    atoms 2-5 entry H          line    51 file /home/agomez/anaconda2/envs/p4env/share/psi4/basis/cc-pvdz-jkfit.gbs 
+
+  ==> Pre-Iterations <==
+
+   -------------------------------------------------------
+    Irrep   Nso     Nmo     Nalpha   Nbeta   Ndocc  Nsocc
+   -------------------------------------------------------
+     A         34      34       0       0       0       0
+   -------------------------------------------------------
+    Total      34      34       5       5       5       0
+   -------------------------------------------------------
+
+  ==> Integral Setup <==
+
+  ==> DFJK: Density-Fitted J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    OpenMP threads:              1
+    Integrals threads:           1
+    Memory (MB):               357
+    Algorithm:                Core
+    Integral Cache:           NONE
+    Schwarz Cutoff:          1E-12
+    Fitting Condition:       1E-12
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (CC-PVDZ AUX)
+    Blend: CC-PVDZ-JKFIT
+    Number of shells: 60
+    Number of basis function: 162
+    Number of Cartesian functions: 181
+    Spherical Harmonics?: true
+    Max angular momentum: 3
+
+  Minimum eigenvalue in the overlap matrix is 2.2326520267E-02.
+  Using Symmetric Orthogonalization.
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF.
+
+  ==> Iterations <==
+
+                           Total Energy        Delta E     RMS |[F,P]|
+
+   @DF-RHF iter   0:   -40.36617662629262   -4.03662e+01   5.55717e-02 
+   @DF-RHF iter   1:   -40.17230031869891    1.93876e-01   5.25223e-03 
+   @DF-RHF iter   2:   -40.19514613154473   -2.28458e-02   1.44895e-03 DIIS
+   @DF-RHF iter   3:   -40.19721896219607   -2.07283e-03   4.92301e-04 DIIS
+   @DF-RHF iter   4:   -40.19748136012095   -2.62398e-04   1.00163e-04 DIIS
+   @DF-RHF iter   5:   -40.19749276929002   -1.14092e-05   1.77204e-05 DIIS
+   @DF-RHF iter   6:   -40.19749325665936   -4.87369e-07   2.46474e-06 DIIS
+   @DF-RHF iter   7:   -40.19749326521216   -8.55280e-09   2.93335e-07 DIIS
+
+  ==> Post-Iterations <==
+
+    Orbital Energies (a.u.)
+    -----------------------
+
+    Doubly Occupied:                                                      
+
+       1A    -11.206928     2A     -0.950419     3A     -0.547636  
+       4A     -0.547635     5A     -0.547631  
+
+    Virtual:                                                              
+
+       6A      0.195290     7A      0.276985     8A      0.276985  
+       9A      0.276986    10A      0.588409    11A      0.588411  
+      12A      0.588411    13A      0.899327    14A      0.899330  
+      15A      0.899331    16A      0.957877    17A      1.134675  
+      18A      1.134676    19A      1.260233    20A      1.702945  
+      21A      1.702946    22A      1.702947    23A      1.913724  
+      24A      1.913726    25A      1.913727    26A      2.230511  
+      27A      2.230516    28A      2.230523    29A      2.577055  
+      30A      2.577059    31A      2.812052    32A      2.841377  
+      33A      2.841388    34A      2.841393  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     5 ]
+
+  Energy converged.
+
+  @DF-RHF Final Energy:   -40.19749326521216
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =             13.6865064847369560
+    One-Electron Energy =                 -80.1675076872398051
+    Two-Electron Energy =                  26.2835079372906932
+    Total Energy =                        -40.1974932652121595
+
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 Bohr
+
+Properties computed using the SCF density matrix
+
+  Nuclear Dipole Moment: (a.u.)
+     X:    => Loading Basis Set <=
+
+    Name: CC-PVDZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry BE         line    75 file /home/agomez/anaconda2/envs/p4env/share/psi4/basis/cc-pvdz.gbs 
+
+     0.0000      Z:    -0.0000     Total:     0.0000
+
+  Dipole Moment: (Debye)
+     X:     0.0000      Y:     0.0000      Z:    -0.0000     Total:     0.0000
+
+
+*** tstop() called on feynman-pc1 at Tue Nov  7 13:39:20 2017
+Module time:
+	user time   =       0.45 seconds =       0.01 minutes
+	system time =       0.01 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
+Total time:
+	user time   =       1.76 seconds =       0.03 minutes
+	system time =       0.02 seconds =       0.00 minutes
+	total time  =         32 seconds =       0.53 minutes
+   => Loading Basis Set <=
+
+    Name: CC-PVDZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1   entry C          line   138 file /home/agomez/anaconda2/envs/p4env/share/psi4/basis/cc-pvdz.gbs 
+    atoms 2-5 entry H          line    22 file /home/agomez/anaconda2/envs/p4env/share/psi4/basis/cc-pvdz.gbs 
+
